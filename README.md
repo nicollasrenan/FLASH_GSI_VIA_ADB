@@ -19,7 +19,7 @@ fastboot reboot fastboot
 Instalação da ROM:
 
 ```bash
-fastboot flash system xxx.img
+fastboot flash system 
 ```
 
 ENTRAR EM MODO RECOVERY PARA LIMPAR DADOS:
@@ -31,7 +31,7 @@ fastboot reboot recovery
 INSTALL TWRP:
 
 ```bash
-fastboot boot xxx.img
+fastboot boot 
 ```
 
 CASO PRECISE DELETAR A PARTIÇÃO:
