@@ -34,10 +34,7 @@ INSTALL TWRP:
 fastboot boot 
 ```
 
-CASO PRECISE DELETAR A PARTIÇÃO:
-system = product
-system_a = product_a
-system_b = product_b
+CASO PRECISE DELETAR A PARTIÇÃO: {{system = product}} {{system_a = product_a}} {{system_b = product_b}}
 
 ```bash
 fastboot delete-logical-partition product
